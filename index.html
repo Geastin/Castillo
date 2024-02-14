@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Sample Web Page</title>
+            <style>
+                .flex-container {
+                    display: flex;
+                    height: 700px;
+                    color: black;
+                    border-style: solid;
+                    border-width: 1px;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+
+                .flex-item {
+                    display: flex;
+                    border-style: solid;
+                    border-width: 1px;
+                    align-items: center;
+                    justify-content: space-around;
+                    text-align: center;
+                }
+                
+            </style>
+    </head>
+
+    <body>
+        <div class ="flex-container">
+            <h2 style = "text-align: center">LOGO</h2>
+                <div class="flex-item"> LOGO
+                </div>
+
+            <h2 style = "text-align: center">Featured Photo</h2>
+                <div class="flex-item"> PHOTO
+                </div>
+
+            <h2 style = "text-align:center">Previous Projects </h2>
+                <div class="flex-container" style="flex-direction: row;">
+                    <div class ="flex-item" style="flex-direction: column;"> 
+                        <h2>Student Academic Information Service</h2>
+                        <p> - A simple program that checks:</p>
+                        <p> - - Student ID</p>
+                        <p> - - Courses</p>
+                        <p> - - Grades</p>
+                    </div>
+                    <div class ="flex-item" style="flex-direction: column;"> 
+                        <h2>Book Search</h2>
+                        <p></p>
+                    </div>
+                    <div class ="flex-item" style="flex-direction: column;"> Catcher Game</div>
+                    <div class ="flex-item" style="flex-direction: column;"> Graphic Design</div>
+                </div>
+
+        <div class="flex-container" style="flex-direction: row;">
+
+            <div class="flex-item" style="flex-direction: column;">
+                <h1>Skills</h1>
+                    <p>Basic Programming</p>
+                    <p> - HTML</p>
+                    <p> - Python</p>
+                    <p> - Java</p>
+                    <p> - C</p>
+                    <p>Critical Thinking</p>
+                    <p></p>
+            </div>
+
+            <div class="flex-item" style="flex-direction: column;">
+                <h1>Autobiography</h1>
+                    <p>Name: Geastin G. Castillo</p>
+                    <p>Age: 21</p>
+                    <p>Birthdate: September 27, 2002</p>
+                    <p>Degree Program: BS Computer Science</p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+   </html>
